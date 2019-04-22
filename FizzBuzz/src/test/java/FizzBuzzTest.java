@@ -20,4 +20,8 @@ public class FizzBuzzTest {
         assertEquals("Fizz", new FizzBuzz().Say(3));
     }
 
+    @Test
+    public void shoud_say_buzz_when_number_is_5(){
+        assertEquals("Buzz",new FizzBuzz().Say(5));
+    }
 }
