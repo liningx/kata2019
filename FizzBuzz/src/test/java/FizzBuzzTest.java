@@ -40,4 +40,8 @@ public class FizzBuzzTest {
         assertEquals("Buzz", new FizzBuzz().Say(10));
     }
 
+    @Test
+    public void should_say_fizzbuzz_when_number_is_30(){
+        assertEquals("FizzBuzz", new FizzBuzz().Say(30));
+    }
 }
