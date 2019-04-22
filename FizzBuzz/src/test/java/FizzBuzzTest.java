@@ -11,7 +11,13 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void should_sya_two_when_number_is_2(){
+    public void should_say_two_when_number_is_2(){
         assertEquals("2", new FizzBuzz().Say(2));
     }
+
+    @Test
+    public void should_say_fizz_when_number_is_3(){
+        assertEquals("Fizz", new FizzBuzz().Say(3));
+    }
+
 }
