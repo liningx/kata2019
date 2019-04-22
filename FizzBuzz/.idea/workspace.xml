@@ -25,13 +25,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="811" />
+          <entry key="java" value="850" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="811" />
+          <entry key="JAVA" value="850" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
-              <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#321#322#0" expanded="true" />
@@ -79,6 +79,8 @@
                 <element signature="e#1010#1011#0" expanded="true" />
                 <element signature="e#1076#1077#0" expanded="true" />
                 <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lnx/kata/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="264">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -180,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555939785636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555940080304" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -221,21 +223,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.should_say_fizz_when_number_is_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.should_say_fizz_when_number_is_13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="should_say_fizz_when_number_is_6" />
+      <option name="METHOD_NAME" value="should_say_fizz_when_number_is_13" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.should_say_fizzbuzz_when_number_15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.should_say_fizz_when_number_is_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzz" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="should_say_fizzbuzz_when_number_15" />
+      <option name="METHOD_NAME" value="should_say_fizz_when_number_is_6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -253,18 +255,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.FizzBuzzTest" />
-      <item itemvalue="JUnit.FizzBuzzTest.should_say_fizzbuzz_when_number_15" />
       <item itemvalue="JUnit.FizzBuzzTest.should_say_fizz_when_number_is_6" />
       <item itemvalue="JUnit.FizzBuzzTest.should_say_buzz_when_number_is_10" />
       <item itemvalue="JUnit.FizzBuzzTest.should_say_fizzbuzz_when_number_is_30" />
+      <item itemvalue="JUnit.FizzBuzzTest.should_say_fizz_when_number_is_13" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.should_say_fizz_when_number_is_13" />
         <item itemvalue="JUnit.FizzBuzzTest.should_say_fizzbuzz_when_number_is_30" />
         <item itemvalue="JUnit.FizzBuzzTest.should_say_buzz_when_number_is_10" />
         <item itemvalue="JUnit.FizzBuzzTest.should_say_fizz_when_number_is_6" />
-        <item itemvalue="JUnit.FizzBuzzTest.should_say_fizzbuzz_when_number_15" />
       </list>
     </recent_temporary>
   </component>
@@ -276,20 +278,11 @@
       <option name="presentableId" value="Default" />
       <updated>1555926109342</updated>
       <workItem from="1555926112858" duration="729000" />
-      <workItem from="1555937395828" duration="2351000" />
+      <workItem from="1555937395828" duration="2642000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_should_say_fizzbuzz_when_number_15 - 2019.04.22 at 21h 14m 53s.xml">
-      <configuration name="FizzBuzzTest.should_say_fizzbuzz_when_number_15" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_should_say_fizz_when_number_is_6 - 2019.04.22 at 21h 17m 20s.xml">
-      <configuration name="FizzBuzzTest.should_say_fizz_when_number_is_6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_should_say_fizz_when_number_is_6 - 2019.04.22 at 21h 20m 32s.xml">
-      <configuration name="FizzBuzzTest.should_say_fizz_when_number_is_6" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTest - 2019.04.22 at 21h 20m 44s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -311,9 +304,18 @@
     <history-entry file="FizzBuzzTest_should_say_fizzbuzz_when_number_is_30 - 2019.04.22 at 21h 28m 48s.xml">
       <configuration name="FizzBuzzTest.should_say_fizzbuzz_when_number_is_30" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_should_say_fizzbuzz_when_number_is_30 - 2019.04.22 at 21h 29m 41s.xml">
+      <configuration name="FizzBuzzTest.should_say_fizzbuzz_when_number_is_30" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2019.04.22 at 21h 29m 46s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2019.04.22 at 21h 33m 14s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3080000" />
+    <option name="totallyTimeSpent" value="3371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -375,7 +377,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
@@ -392,14 +394,16 @@
             <element signature="e#1010#1011#0" expanded="true" />
             <element signature="e#1076#1077#0" expanded="true" />
             <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lnx/kata/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="264">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>

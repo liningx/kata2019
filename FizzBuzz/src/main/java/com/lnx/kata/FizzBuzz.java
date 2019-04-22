@@ -6,7 +6,7 @@ public class FizzBuzz {
             return "FizzBuzz";
         }
 
-        if (i%3==0) {
+        if (i%3==0 || String.valueOf(i).contains("3")) {
             return "Fizz";
         }
 
