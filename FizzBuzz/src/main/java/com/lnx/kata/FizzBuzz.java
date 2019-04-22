@@ -6,13 +6,14 @@ public class FizzBuzz {
             return "FizzBuzz";
         }
 
-        if (i%3==0 || String.valueOf(i).contains("3")) {
+        String s = String.valueOf(i);
+        if (i%3==0 || s.contains("3")) {
             return "Fizz";
         }
 
-        if (i%5==0){
+        if (i%5==0 || s.contains("5") ){
             return "Buzz";
         }
-        return String.valueOf(i);
+        return s;
     }
 }
