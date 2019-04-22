@@ -10,7 +10,7 @@ public class FizzBuzz {
             return "Fizz";
         }
 
-        if (i==5){
+        if (i%5==0){
             return "Buzz";
         }
         return String.valueOf(i);

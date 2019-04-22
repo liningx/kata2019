@@ -34,4 +34,10 @@ public class FizzBuzzTest {
     public void should_say_fizz_when_number_is_6(){
         assertEquals("Fizz", new FizzBuzz().Say(6));
     }
+
+    @Test
+    public void should_say_buzz_when_number_is_10(){
+        assertEquals("Buzz", new FizzBuzz().Say(10));
+    }
+
 }
