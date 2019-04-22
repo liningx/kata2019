@@ -21,7 +21,13 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void shoud_say_buzz_when_number_is_5(){
+    public void should_say_buzz_when_number_is_5(){
         assertEquals("Buzz",new FizzBuzz().Say(5));
     }
+
+    @Test
+    public void should_say_fizzbuzz_when_number_15(){
+        assertEquals("FizzBuzz", new FizzBuzz().Say(15));
+    }
+
 }

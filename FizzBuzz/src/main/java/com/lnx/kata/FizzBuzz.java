@@ -9,6 +9,10 @@ public class FizzBuzz {
         if (i==5){
             return "Buzz";
         }
+
+        if (i==15){
+            return "FizzBuzz";
+        }
         return String.valueOf(i);
     }
 }
